@@ -1,0 +1,9 @@
+<h1>Task Manager</h1>
+
+<h3>To do list</h3>
+
+<% @tasks.each do |task| %>
+  <h2><%= task.title %></h2>
+  <p><%= task.details %></p>
+<% end %>
+
